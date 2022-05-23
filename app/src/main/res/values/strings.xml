@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Images</string>
+    <string name="select_image">Select Image</string>
+    <string name="save_record">Save Record</string>
+</resources>
