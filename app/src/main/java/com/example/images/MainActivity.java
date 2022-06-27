@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void addCustomer(){
 
-        Retrofit retrofit = new Retrofit.Builder().baseUrl("http://192.168.1.3:5000/")
+        Retrofit retrofit = new Retrofit.Builder().baseUrl("http:///192.168.43.204:5000/")
                 .addConverterFactory(GsonConverterFactory.create()).build();
 
         File file = new File(path);

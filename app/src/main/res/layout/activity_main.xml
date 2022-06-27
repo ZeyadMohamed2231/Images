@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/back">
 
 
     <LinearLayout
@@ -21,6 +22,7 @@
             >
 
             <com.google.android.material.button.MaterialButton
+                android:backgroundTint="#2c2c2c"
                 app:cornerRadius="10dp"
                 android:id="@+id/select_image"
                 android:layout_width="wrap_content"
@@ -38,12 +40,13 @@
         </LinearLayout>
 
         <com.google.android.material.button.MaterialButton
+            android:backgroundTint="#2c2c2c"
             app:cornerRadius="10dp"
             android:id="@+id/save"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="50dp"
-            android:text="@string/save_record"
+            android:text="@string/predict"
             />
 
         <TextView
@@ -51,7 +54,6 @@
             android:id="@+id/tv_presidents_names"
             android:textSize="50sp"
             android:gravity="center"
-            android:text="Presidents"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
